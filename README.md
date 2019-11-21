@@ -21,4 +21,4 @@ API deployed at https://online-guestbook.herokuapp.com/
 
 &copy; Anuoluwapo Akinseye
 
-Licensed under the [MIT License](https://github.com/an-apluss/guestbook-api/blob/develop/LICENSE)
+Licensed under the [MIT License](https://github.com/an-apluss/guestbook-api/blob/master/LICENSE)
