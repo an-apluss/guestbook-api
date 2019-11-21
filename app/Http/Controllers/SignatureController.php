@@ -23,7 +23,7 @@ class SignatureController extends Controller
         $validation = Validator::make($request->all(), [
             'first_name' => 'string|required', 
             'last_name' => 'string|required', 
-            'email' => 'string|required|unique:signatures', 
+            'email' => 'string|email|required|unique:signatures', 
             'message' => 'string|required'
         ]);
       
