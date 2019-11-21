@@ -16,7 +16,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'api'], function () use ($router) {
-    $router->group(['prefix' => 'guests'], function () use ($router) {
+    $router->group(['prefix' => 'signatures'], function () use ($router) {
         $router->post('/', [
             'uses' => 'SignatureController@create'
         ]);
